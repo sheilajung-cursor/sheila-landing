@@ -22,7 +22,7 @@ const response: Block[] = [
     kind: "paragraph",
     inlines: [
       { kind: "text", text: "Sheila Jung is the " },
-      { kind: "strong", text: "Regional Director, ADM Management at Cursor" },
+      { kind: "strong", text: "Regional Director, AI Deployment at Cursor" },
       { kind: "text", text: ", based in San Francisco, CA." },
     ],
   },
@@ -289,7 +289,7 @@ const Home = () => {
         <div className="min-h-0 overflow-y-auto overscroll-contain px-4 py-3 text-sm leading-relaxed text-[#c9c9c9] sm:py-4">
           {/* Full response for screen readers; the animated copy is decorative. */}
           <div className="sr-only">
-            Sheila Jung is the Regional Director, ADM Management at Cursor,
+            Sheila Jung is the Regional Director, AI Deployment at Cursor,
             based in San Francisco, CA. She&apos;s helping enterprise software
             engineering teams get business value out of Cursor. Before Cursor,
             she held GTM leadership roles at Retool and GoodData. Find her at{" "}
