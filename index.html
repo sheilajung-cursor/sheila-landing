@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="color-scheme" content="dark" />
+    <!-- Paint the dark canvas before JS/CSS bundles load (avoids white flash on slow connections). -->
+    <style>
+      html {
+        height: 100%;
+        background-color: #0a0a0a;
+        color-scheme: dark;
+      }
+
+      body {
+        margin: 0;
+        height: 100%;
+        background-color: #0a0a0a;
+      }
+
+      #root {
+        min-height: 100%;
+        background-color: #0a0a0a;
+      }
+    </style>
+    <link rel="preload" as="image" href="/headshot.png" />
+    <title>Sheila Jung — Regional Director, ADM Management at Cursor</title>
+    <meta name="description" content="Sheila Jung is the Regional Director, ADM Management at Cursor, helping enterprise engineering teams get business value out of Cursor." />
+    <meta name="author" content="Sheila Jung" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sheila Jung — Regional Director, ADM Management at Cursor" />
+    <meta property="og:description" content="Sheila Jung is the Regional Director, ADM Management at Cursor, helping enterprise engineering teams get business value out of Cursor." />
+    <meta property="og:image" content="/headshot.png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Sheila Jung — Regional Director, ADM Management at Cursor" />
+    <meta name="twitter:description" content="Sheila Jung is the Regional Director, ADM Management at Cursor, helping enterprise engineering teams get business value out of Cursor." />
+    <meta name="twitter:image" content="/headshot.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
